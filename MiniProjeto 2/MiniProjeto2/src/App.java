@@ -9,7 +9,7 @@ public class App {
         System.out.println("Olá, jogador! Bem-vindo aos Segredos das Matas das Sombras. Para iniciarmos a história, como prefere ser chamado?");
         
         varProtagonista.nome = escaneiaInformação.nextLine();
-        System.out.println("Certo, " + varProtagonista + " é um prazer tê-lo nessa história.");
+        System.out.println("Certo, " + varProtagonista.nome + " é um prazer tê-lo nessa história.");
         
         System.out.println("Capítulo 1");
         System.out.println("Em um reino distante, uma floresta encantada guarda segredos antigos e perigos desconhecidos. Você é um aventureiro corajoso que decidiu explorar seus mistérios. Sua jornada começa quando você se depara com uma bifurcação na estrada que adentra a floresta. Você tem duas opções:\nOpção 1: Seguir o caminho iluminado pelo sol, que parece seguro e familiar.\nOpção 2: Entrar na trilha sombria e misteriosa, que promete aventuras desconhecidas.");
@@ -28,7 +28,7 @@ public class App {
 
                 System.out.println("Capítulo 3");
                 
-                System.out.println("Construir uma ponte: Depois de enfrentar o monstro da floresta " + varMonstro.nome + "e construir uma ponte sobre o rio, você finalmente alcança o outro lado. No entanto, ao atravessar, você descobre que a ponte está instável e desaba, deixando-o preso em uma parte desconhecida da floresta, sem uma maneira fácil de voltar.");
+                System.out.println("Construir uma ponte: Depois de enfrentar o monstro da floresta " + varMonstro.nome + " e construir uma ponte sobre o rio, você finalmente alcança o outro lado. No entanto, ao atravessar, você descobre que a ponte está instável e desaba, deixando-o preso em uma parte desconhecida da floresta, sem uma maneira fácil de voltar.");
             }
             else if(opções == 2){
                 System.out.println("Capítulo 3");
@@ -53,5 +53,6 @@ public class App {
                 System.out.println("Ao explorar a antiga ruína além da árvore, você desvenda segredos valiosos e encontra artefatos antigos. No entanto, ao tentar sair da ruína, você acidentalmente ativa uma armadilha antiga que bloqueia todas as saídas. Percebendo que está preso sem esperança de escapar, você se resigna ao seu destino, sabendo que sua jornada na floresta chegou a um fim prematuro.");
             }
         }
+    escaneiaInformação.close();
     }
 }
