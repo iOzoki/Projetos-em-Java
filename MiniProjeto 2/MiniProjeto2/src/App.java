@@ -33,7 +33,7 @@ public class App {
             if(opções == 1){
                 System.out.println("Capítulo 3");
                 
-                varProtagonista.Acao(100);
+                varProtagonista.Acao(20);
                 
                 System.out.println("Construir uma ponte: Depois de enfrentar o monstro da floresta " + varMonstro.nome + " e construir uma ponte sobre o rio, você finalmente alcança o outro lado. No entanto, ao atravessar, você descobre que a ponte está instável e desaba, deixando-o preso em uma parte desconhecida da floresta, sem uma maneira fácil de voltar.");
             }
