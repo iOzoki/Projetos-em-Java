@@ -1,3 +1,4 @@
+package MiniP2;
 public class Personagem {
     String nome;
     int vidaBase = 100;
