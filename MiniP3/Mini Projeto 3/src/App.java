@@ -42,63 +42,66 @@ public class App {
         System.out.println("Olá, jogador! Bem-vindo aos Segredos das Matas das Sombras. Para iniciarmos a história, como prefere ser chamado?");
         
         varProtagonista.nome = escaneiaInformação.nextLine();
-        System.out.printf("Certo, %s é um prazer tê-lo nessa história.", varProtagonista.nome);
+        System.out.printf("Certo, %s é um prazer tê-lo nessa história." 
+        + "\n---------------------------------------------------------------------------------------", varProtagonista.nome);
         
-        System.out.println("Capítulo 1");
+        System.out.println("\nCapítulo 1\n---------------------------------------------------------------------------------------");
         
         System.out.println(textoCap1);
         
-        System.out.println("Para cada ação você gastará 20 pontos de energia, se chegar a zero lembre-se de tomar uma poção ou descansar!");
+        System.out.println("---------------------------------------------------------------------------------------" 
+        + "\nPara cada ação você gastará 20 pontos de energia, se chegar a zero lembre-se de tomar uma poção ou descansar!" 
+        + "\n---------------------------------------------------------------------------------------");
         
         int opções = escaneiaInformação.nextInt();
         escaneiaInformação.nextLine();
         
 
         if(opções == 1){
-            System.out.println("Capítulo 2");
+            System.out.println("\nCapítulo 2\n---------------------------------------------------------------------------------------");
             
             varProtagonista.Acao(20);
             
-            System.out.println(textoCap2Escolha1);
+            System.out.println("---------------------------------------------------------------------------------------" + "\n" + textoCap2Escolha1);
             
             opções = escaneiaInformação.nextInt();
             if(opções == 1){
-                System.out.println("Capítulo 3");
+                System.out.println("\nCapítulo 3\n---------------------------------------------------------------------------------------");
                 
                 varProtagonista.Acao(20);
                 
-                System.out.println(textoCap3Escolha1Escolha1);
+                System.out.println("---------------------------------------------------------------------------------------" + "\n" + textoCap3Escolha1Escolha1);
             }
             else if(opções == 2){
-                System.out.println("Capítulo 3");
+                System.out.println("\nCapítulo 3\n---------------------------------------------------------------------------------------");
                 
                 varProtagonista.Acao(20); 
 
-                System.out.println(textoCap3Escolha1Escolha2);
+                System.out.println("---------------------------------------------------------------------------------------" + "\n" + textoCap3Escolha1Escolha2);
             }
         }
         else if(opções == 2){
-            System.out.println("Capítulo 2");
+            System.out.println("\nCapítulo 2\n---------------------------------------------------------------------------------------");
             
             varProtagonista.Acao(20);
 
-            System.out.println(textoCap2Escolha2);
+            System.out.println("---------------------------------------------------------------------------------------" + "\n" + textoCap2Escolha2);
             
             opções = escaneiaInformação.nextInt();
             
             if(opções == 1){
-                System.out.println("Capítulo 3");
+                System.out.println("\nCapítulo 3\n---------------------------------------------------------------------------------------");
                 
                 varProtagonista.Acao(20);
 
-                System.out.println(textoCap3Escolha2Escolha1);
+                System.out.println("---------------------------------------------------------------------------------------" + "\n" + textoCap3Escolha2Escolha1);
             }
             else if(opções == 2){
-                System.out.println("Capítulo 3");
+                System.out.println("\nCapítulo 3\n---------------------------------------------------------------------------------------");
                 
                 varProtagonista.Acao(20);
 
-                System.out.println(textoCap3Escolha2Escolha2);
+                System.out.println("---------------------------------------------------------------------------------------" + "\n" + textoCap3Escolha2Escolha2);
             }
         }
     escaneiaInformação.close();
