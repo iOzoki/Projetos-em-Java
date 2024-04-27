@@ -17,7 +17,7 @@ public class App {
             + "Você pode tentar construir uma ponte ou procurar por uma passagem secreta nas margens do rio.\nConstruir uma ponte(Opção 1):"
             + "Leva você a enfrentar o monstro da floresta que não esta disposto a deixá-lo prosseguir facilmente."
             + "\nProcurar uma passagem secreta(Opção 2): Você descobre uma caverna oculta, mas está cheia de enigmas e perigos que testarão sua inteligência e habilidades.";
-
+        //lucas adere a greve ai
         String textoCap2Escolha2 = "A trilha sombria revela-se repleta de desafios imprevistos. Você se depara com uma árvore gigante com raízes que bloqueiam seu caminho." 
             + "Você pode tentar escalar a árvore ou contorná-la por entre a densa vegetação.\nEscalar a árvore(Opção 1): Conduz a um ninho de pássaros gigantes que protegem" 
             + "ferozmente seu território.\nContornar a árvore(Opção 2): Leva você a descobrir" 
