@@ -1,5 +1,5 @@
 public class Monstro {
-    String nome = "Fabio Novaes";
+    String nome = "Monstro";
     int vidaBase = 20;
     
 
