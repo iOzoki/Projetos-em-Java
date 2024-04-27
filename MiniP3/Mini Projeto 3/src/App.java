@@ -17,7 +17,7 @@ public class App {
         Capitulo capitulo1 = new Capitulo("\nCapítulo 1 - A dualidade da luz e das sombras.\n----------------------------------------------------------\n", textoCap1);
         
         String textoCap2Escolha1 = "\nAo seguir o caminho iluminado, você encontra uma clareira tranquila, mas logo se depara com um rio furioso bloqueando o caminho." 
-            + "Você pode tentar construir uma ponte ou procurar por uma passagem secreta nas margens do rio.\nConstruir uma ponte(Opção 1):"
+            + "Você pode tentar construir uma ponte ou procurar por uma passagem secreta nas margens do rio.\nConstruir uma ponte(Opção 1): "
             + "Leva você a enfrentar o monstro da floresta que não esta disposto a deixá-lo prosseguir facilmente."
             + "\nProcurar uma passagem secreta(Opção 2): Você descobre uma caverna oculta, mas está cheia de enigmas e perigos que testarão sua inteligência e habilidades.";
 
@@ -40,7 +40,7 @@ public class App {
                 + "No entanto, para sua surpresa, a passagem leva a uma câmara subterrânea que está desmoronando lentamente. Com o tempo se esgotando e as saídas bloqueadas," 
                 + "você percebe que está preso dentro da caverna e seu único destino é a morte.";
 
-        Capitulo capitulo3escolha1escolha2 = new Capitulo("\nCapítulo 3 - O tempo para refletir os pecados.\n----------------------------------------------------------\n", textoCap3Escolha1Escolha1);
+        Capitulo capitulo3escolha1escolha2 = new Capitulo("\nCapítulo 3 - O tempo para refletir os pecados.\n----------------------------------------------------------\n", textoCap3Escolha1Escolha2);
 
          String textoCap3Escolha2Escolha1 = "Depois de enfrentar os pássaros gigantes e escalar a árvore, você alcança o topo, apenas para descobrir que está diante de um" 
         + "abismo profundo. Sem uma maneira de prosseguir, você fica preso no alto da árvore, incapaz de retornar ao chão. Com o passar do tempo," 
